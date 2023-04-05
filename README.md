@@ -46,18 +46,24 @@ It is a simple to-do list app, in which we can create, delete, and edit our to-d
 <h4>********** Steps to install and run app **********</h4>
 
 <p>1- You need to have postgreSQL installed</p>
-<div>
+
 <p>2- Create a database with the name perntodo</p>
 <p>(You can do it by opening your terminal and putting the command    psql -U postgres   to conect with postgres)</p>
 <p>and you will have to enter your postgres password   *****</p>
 <p>3- Enter the command:</p>
 <p>CREATE DATABASE perntodo;   (this is to create the database)</p>
 <p>4- Enter the command:</p>
-<p>
-Create a table with the name todo and inside an todo_id and a description <br/> CREATE TABLE todo(
+<p>CREATE TABLE todo(
     todo_id SERIAL PRIMARY KEY,
     description VARCHAR(255)
 );</p>    
 <p>(this is to create the todo table with the todo_id and description rows)</p>
+<p>5- Create a folder and open it with your vsCode</p>
+<p>6- Open the terminal and clone this repository</p>
+<p>7- Use the command:</p>
+<p>git clone https://github.com/maxiscor7/list-todo-with-postgreSQL.git</p>
+<p>8- Install all the dependencies</p>
+<p>9- With a terminal stopped in the server folder run nodemon index</p>
+<p>10- And with another terminal stopped in the client folder use npm run</p>
 
-</div>
+<h3>*** With everything running you should see on your localhost your to do list working ***</h3>
