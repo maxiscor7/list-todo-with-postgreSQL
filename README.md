@@ -28,6 +28,7 @@ It is a simple to-do list app, in which we can create, delete, and edit our to-d
 <div style="display: flex">
 <img src="http://img.shields.io/badge/-PostgreSQL-3366ff?style=flat&logo=PostgreSQL&logoColor=white">
 <img src="https://img.shields.io/badge/-Express.js-787878?style=flat">
+<img src="http://img.shields.io/badge/-Sequelize-white?style=flat&logo=Sequelize&logoColor=007ACC">
 <img src="https://img.shields.io/badge/-Node.js-3C873A?style=flat&logo=Node.js&logoColor=white">
 </div>
 
